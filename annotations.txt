@@ -1,0 +1,13 @@
+yarn create next-app mvp-next
+yarn add typescript @types/node @types/react -D
+yarn add tailwindcss postcss autoprefixer -D
+npx tailwindcss init -p
+yarn add @tailwindcss/forms -D
+yarn add next-auth
+yarn add prisma -D
+yarn add @prisma/client
+yarn prisma init
+yarn prisma migrate dev
+yarn prisma studio
+yarn add -D prisma-erd-generator @mermaid-js/mermaid-cli
+npx prisma generate
